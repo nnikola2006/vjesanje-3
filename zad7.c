@@ -50,9 +50,6 @@ int main()
     {
         for(int j = i + 1; j < n; j++)
         {
-            struct STUDENT s1 = studenti[i];
-            struct STUDENT s2 = studenti[j];
-
             // Provjera godine, mjeseca i dana (zahvalli se etf-u na gadan if)
             if((studenti[j].datumRodjenja.godina < studenti[i].datumRodjenja.godina) ||
                 (studenti[j].datumRodjenja.godina == studenti[i].datumRodjenja.godina &&
