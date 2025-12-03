@@ -26,10 +26,10 @@ int main()
         for(int j = i + 1; j < n; j++)
         {
             // Modul prvog
-            double m1 = a[i].re * a[i].re + a[i].im * a[i].im;
+            double m1 = sqrt(a[i].re * a[i].re + a[i].im * a[i].im);
 
             // Modul drugog
-            double m2 = a[j].re * a[j].re + a[j].im * a[j].im;
+            double m2 = sqrt(a[j].re * a[j].re + a[j].im * a[j].im);
 
             // Poređenje modula (bez sqrt, jer realno ne treba kad je 25 > 16, onda je i 5 > 4)
             // al kao nije greska stavit
