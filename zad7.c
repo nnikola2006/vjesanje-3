@@ -73,7 +73,7 @@ int main()
     {
         struct STUDENT s = studenti[i];
         printf("%d. %-15s %-15s %02d.%02d.%04d %7.2lf\n",
-               i + 1,
+               s.brojIndeksa,
                s.prezime,
                s.ime,
                s.datumRodjenja.dan,
