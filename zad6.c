@@ -45,8 +45,9 @@ int main()
     }
 
     // Ispis zaglavlja
-    printf("\n===== ==================== ====== ====== =========\n");
-    printf("ID    NAZIV                  KOL.   CIJENA  UKUPNO\n");
+    printf("\n");
+    printf("===== ==================== ====== ====== =========\n");
+    printf("ID    NAZIV                KOL.   CIJENA UKUPNO\n");
     printf("===== ==================== ====== ====== =========\n");
 
     double ukupno = 0.0;
@@ -61,7 +62,7 @@ int main()
     }
 
     printf("==================================================\n");
-    printf("UKUPNO: %39.2lf\n", ukupno);
+    printf("UKUPNO: %10.2lf\n", ukupno);
     printf("==================================================\n");
 
     return 0;
