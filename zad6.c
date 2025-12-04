@@ -23,7 +23,8 @@ int main()
         printf("ID: ");
         scanf("%d", &artikli[i].id);
         printf("Naziv: ");
-        scanf(" %[^\n]", artikli[i].naziv); // cita cijeli red sa razmacima
+        // scanf(" %[^\n]", artikli[i].naziv); // cita cijeli red sa razmacima
+        scanf("%s", artikli[i].naziv); // al da se ne komplikuje pisite ovako
         printf("Kolicina: ");
         scanf("%lf", &artikli[i].kolicina);
         printf("Cijena: ");
