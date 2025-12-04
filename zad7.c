@@ -31,10 +31,10 @@ int main()
         scanf("%d", &studenti[i].brojIndeksa);
 
         printf("Prezime: ");
-        scanf(" %[^\n]", studenti[i].prezime);
+        scanf(" %s", studenti[i].prezime);
 
         printf("Ime: ");
-        scanf(" %[^\n]", studenti[i].ime);
+        scanf(" %s", studenti[i].ime);
 
         printf("Datum rodjenja (dd mm gggg): ");
         scanf("%d %d %d", &studenti[i].datumRodjenja.dan,
